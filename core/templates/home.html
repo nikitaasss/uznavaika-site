@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% block content %}
+<div class="main">
+  <div class="container-main">
+    <h1>Переходи от <br>
+      вопросов к <br>
+      пониманию</h1>
+      Узнавай-ка - это сообщество, основанное на знаниях, <br>насчитывающее 300 миллионов учеников и экспертов.<br> Именно благодаря им даже самые сложные вопросы <br> получают хорошие ответы.
+    <div class="search-box">
+      <a href="{% url 'forum' %}" class="ask">ЗАДАТЬ ВОПРОС</a>
+    </div>
+  </div>
+  <img src="static/icons/team_people_icon_176892-svg.svg" alt="team_people_icon" height="500px" width="500px">
+</div>
+{% endblock %}
